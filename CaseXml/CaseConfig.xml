@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="testSuite" parallel="tests" thread-count="2">
+	<test name="androidCase" preserve-order="true">
+		<!-- Android 执行环境、设备、用例配置 -->
+		<parameter name="serverPort" value="4724" />
+		<parameter name="testDevice" value="emulator-5554" />
+		<parameter name="CaseExcelName" value="CaseScript_V0.1.xlsx" />
+		<classes>
+			<class name="com.appium.android.AndroidTestBase"></class>
+		</classes>
+	</test>
+	
+	
+	<!-- <test name="test2" preserve-order="true"> -->
+	<!-- <parameter name="serverPort" value="4724" /> -->
+	<!-- <parameter name="testDevice" value="SMG9300_cibmb" /> -->
+	<!-- <parameter name="CaseExcelName" value="CaseScript_V0.2.xlsx" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.appium.android.AndroidTestBase"></class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+</suite>  
+

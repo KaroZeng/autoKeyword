@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69256" started-at="2017-11-08T12:25:06Z" finished-at="2017-11-08T12:26:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="69256" started-at="2017-11-08T12:25:06Z" finished-at="2017-11-08T12:26:16Z">
+      <class name="com.appium.android.AndroidTestBase">
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appium.android.AndroidTestBase@4cc451f2]" name="init" is-config="true" duration-ms="16545" started-at="2017-11-08T20:25:06Z" finished-at="2017-11-08T20:25:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4724]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CaseScript_V0.1.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="runCase(java.util.Map)[pri:0, instance:com.appium.android.AndroidTestBase@4cc451f2]" name="runCase" duration-ms="6878" started-at="2017-11-08T20:25:23Z" data-provider="casesList" finished-at="2017-11-08T20:25:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{CaseID=T001, CaseName=选择环境}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCase -->
+        <test-method status="PASS" signature="runCase(java.util.Map)[pri:0, instance:com.appium.android.AndroidTestBase@4cc451f2]" name="runCase" duration-ms="14597" started-at="2017-11-08T20:25:30Z" data-provider="casesList" finished-at="2017-11-08T20:25:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{CaseID=T002, CaseName=首页滑动}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCase -->
+        <test-method status="PASS" signature="runCase(java.util.Map)[pri:0, instance:com.appium.android.AndroidTestBase@4cc451f2]" name="runCase" duration-ms="11780" started-at="2017-11-08T20:25:44Z" data-provider="casesList" finished-at="2017-11-08T20:25:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{CaseID=T003, CaseName=菜单点击}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCase -->
+        <test-method status="PASS" signature="runCase(java.util.Map)[pri:0, instance:com.appium.android.AndroidTestBase@4cc451f2]" name="runCase" duration-ms="17980" started-at="2017-11-08T20:25:56Z" data-provider="casesList" finished-at="2017-11-08T20:26:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{CaseID=T004, CaseName=登录}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCase -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.appium.android.AndroidTestBase@4cc451f2]" name="close" is-config="true" duration-ms="1454" started-at="2017-11-08T20:26:14Z" finished-at="2017-11-08T20:26:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.appium.android.AndroidTestBase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

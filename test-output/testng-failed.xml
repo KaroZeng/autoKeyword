@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="testDevice" value="emulator-5554"/>
+  <parameter name="CaseExcelName" value="CaseScript_V0.1.xlsx"/>
+  <parameter name="serverPort" value="4724"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.appium.android.AndroidTestBase">
+        <methods>
+          <include name="runCase" invocation-numbers="1 2 3"/>
+          <include name="init"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.appium.android.AndroidTestBase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
